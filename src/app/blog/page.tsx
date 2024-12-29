@@ -5,19 +5,19 @@ const blogs = [
     id: 1,
     title: 'A Recipe to Cook a Delightful Sweet Chicken',
     description: 'Discover the perfect recipe to cook a delightful sweet chicken that melts in your mouth.',
-    image: '/Blog-image.jpeg', // This is the path to the image file
+    image: '/Blog-image.jpg', // This is the path to the image file
   },
   {
     id: 2,
     title: 'The Best Way to Make Pizza with Sweet Chicken',
     description: 'Learn how to make pizza topped with sweet chicken for a unique and delicious experience.',
-    image: '/pizza.jpeg', // This is the path to another image
+    image: '/pizza.jpg', // This is the path to another image
   },
   {
     id: 3,
     title: 'The Ultimate Chicken Burger: Tips & Tricks',
     description: 'Get the ultimate tips and tricks for creating the perfect chicken burger at home.',
-    image: '/Blog-card-4.jpeg', // Path to a different image
+    image: '/Blog-card-4.jpg', // Path to a different image
   },
 ];
 
@@ -117,7 +117,7 @@ const Home = () => {
             <h3 className="text-xl font-semibold text-gray-800">About Me</h3>
             <div className="flex items-center mt-4">
               <Image
-                src="/profile.jpeg" // Ensure this is correct in the public folder
+                src="/profile.jpg" // Ensure this is correct in the public folder
                 alt="Profile"
                 width={50}
                 height={50}
